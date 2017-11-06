@@ -1,5 +1,7 @@
 #pragma once
 #include <iostream>
+#include "State.h"
+#include "IdleState.h"
 using namespace std;
 class Climbing : public State
 {

@@ -2,13 +2,20 @@
 
 void Idle::jumping(Animation* a)
 {
-	cout << "Jumping" << endl;
+	cout << "Idle >> Jumping" << endl;
 	a->setCurrent(new Idle());
 	delete this;
 }
 void Idle::climbing(Animation* a)
 {
-	cout << "Climbing" << endl;
+	cout << "Idle >> Climbing" << endl;
+	a->setCurrent(new Idle());
+	delete this;
+}
+
+void Idle::idle(Animation * a)
+{
+	cout << "Idle >> Climbing" << endl;
 	a->setCurrent(new Idle());
 	delete this;
 }

@@ -11,4 +11,5 @@ public:
 	~Idle() {  };
 	void jumping(Animation* a);
 	void climbing(Animation* a);
+	void idle(Animation* a);
 };

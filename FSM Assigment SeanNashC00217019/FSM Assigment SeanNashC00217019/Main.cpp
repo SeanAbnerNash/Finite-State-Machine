@@ -4,11 +4,16 @@
 //Known Issues:
 //Brief:
 #include "Animation.h"
+#include "ClimbState.h"
+#include <iostream>
 
 int main() {
 	Animation fsm; int i = 0;
 
-	fsm.climbing();
+
+	//fsm.setCurrent(something);
+	fsm.idle();
+	fsm.jumping();
 	/*while (true) {
 		if (i == 0) {
 			fsm.jumping();
@@ -21,4 +26,5 @@ int main() {
 			i = 0;
 		}
 	}*/
+	system("PAUSE");
 }
