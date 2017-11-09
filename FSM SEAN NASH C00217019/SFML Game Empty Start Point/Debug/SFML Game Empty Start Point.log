@@ -1,0 +1,11 @@
+﻿  JumpState.cpp
+  IdleState.cpp
+  Game.cpp
+  ClimbState.cpp
+  Animation.cpp
+  Generating Code...
+  Compiling...
+  main.cpp
+  Generating Code...
+  SFML Game Empty Start Point.vcxproj -> C:\Users\User\Desktop\SFML Game Empty Start Point\Debug\SFML Game Empty Start Point.exe
+  SFML Game Empty Start Point.vcxproj -> C:\Users\User\Desktop\SFML Game Empty Start Point\Debug\SFML Game Empty Start Point.pdb (Partial PDB)
